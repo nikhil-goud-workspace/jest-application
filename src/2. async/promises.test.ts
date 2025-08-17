@@ -16,7 +16,7 @@ describe('promises', () => {
     test('rejects with error', () => {
         expect.assertions(1);
         return fetchErrorPromise().catch((err) => {
-            expect(err).toEqual(new Error('fail'));
+            expect(err).toEqual(new Error('Fail'));
         });
     });
 });

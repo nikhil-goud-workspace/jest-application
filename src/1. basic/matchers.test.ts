@@ -3,7 +3,8 @@ import { add, getObject, isPositive, multiply, approxPi } from './math';
 import { greet } from './strings';
 import { getFruits } from './arrays';
 import { failIfNegative } from './errors';
-import { fetchUser, fetchWithError } from './async';
+import { fetchUser, fetchWithError } from "./async";
+
 import { before } from 'node:test';
 
 describe('math test suite', () => {

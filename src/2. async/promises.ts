@@ -3,5 +3,5 @@ export function fetchDataPromise(): Promise<string> {
 }
 
 export function fetchErrorPromise(): Promise<string> {
-    return new Promise((_, reject) => setTimeout(() => reject(new Error('fail')), 50));
+    return new Promise((_, reject) => setTimeout(() => reject(new Error('Fail')), 50));
 }
